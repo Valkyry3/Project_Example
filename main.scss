@@ -3,11 +3,12 @@ $color2: rgb(146,57,130); //purple
 $color3: rgb(193,210,74); //yellow
 $color4: rgb(255,255,255); //white
 $color5: rgb(88,89,91); //grey
-
+ 
 body {
     background-color: $color1;
 }
-
+ 
 h1{
     color: $color3;
+    font-family: fantasy;
 }
