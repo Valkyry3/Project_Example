@@ -11,12 +11,19 @@ h1 {
   color: #58595b;
   font-family: 'Monoton', cursive; }
 
-.infoBox button {
-  font-family: 'Raleway', sans-serif;
-  color: white; }
 .infoBox p {
   display: none; }
 .infoBox p.visible {
+  display: block; }
+
+button {
+  font-family: 'Raleway', sans-serif;
+  color: white; }
+
+p {
+  display: none; }
+
+p.visible {
   display: block; }
 
 /*# sourceMappingURL=main.css.map */

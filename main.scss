@@ -22,10 +22,7 @@ h1{
 }
 
 .infoBox {
-    button {
-        font-family: 'Raleway', sans-serif;
-        color: $color4;
-    }
+   
     p {
         display: none;
     }
@@ -33,3 +30,13 @@ h1{
         display: block;
     }
 }
+button {
+        font-family: 'Raleway', sans-serif;
+        color: $color4;
+    }
+ p {
+        display: none;
+    }
+    p.visible {
+        display: block;
+    }
