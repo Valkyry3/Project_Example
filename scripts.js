@@ -1,3 +1,5 @@
 $(document).ready(function(){
-    alert("Hello World");
+    $(".infoBox button").click(function(){
+        $(this).next().toggleClass("visible");
+    });
 })

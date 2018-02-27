@@ -1,8 +1,22 @@
+/*
+    font-family: 'Monoton', cursive;
+
+    font-family: 'Raleway', sans-serif;
+
+*/
 body {
   background-color: #00abeb; }
 
 h1 {
-  color: #c1d24a;
-  font-family: fantasy; }
+  color: #58595b;
+  font-family: 'Monoton', cursive; }
+
+.infoBox button {
+  font-family: 'Raleway', sans-serif;
+  color: white; }
+.infoBox p {
+  display: none; }
+.infoBox p.visible {
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
